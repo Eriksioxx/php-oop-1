@@ -15,7 +15,7 @@ class Movie {
     public $year;
     public $poster;
 
-    // function construct che accetta title e year
+    // function construct che accetta title e year...
     function __construct ($title, $year, $poster) {
         $this->title = $title;
         $this->year = $year;
